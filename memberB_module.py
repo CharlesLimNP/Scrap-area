@@ -6,3 +6,13 @@ def evenOrOdd(number):
         return "even"
     else:
         return "odd"
+
+def fib(n):
+    """
+    Takes an integer, computes the Fibonacci sequence and returns a generator object.
+    Usage:
+    """
+    a, b = 0, 1
+    for _ in range(n):
+        yield a
+        a, b = b, a + b
