@@ -6,3 +6,7 @@ def add(*numbers):
     for num in numbers:
         number += num
     return number
+
+def print_underline(words):
+    print(words)
+    print("*" * len(words))
