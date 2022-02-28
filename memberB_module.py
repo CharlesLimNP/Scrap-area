@@ -9,8 +9,7 @@ def evenOrOdd(number):
 
 def fib(n):
     """
-    Takes an integer, computes the Fibonacci sequence and returns a generator object.
-    Usage:
+    Takes an integer, computes the Fibonacci sequence and returns an iterator object.
     """
     a, b = 0, 1
     for _ in range(n):
